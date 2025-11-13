@@ -32,6 +32,7 @@ assert() {
 # 运行测试
 assert 0 0
 assert 30 30
-assert 22 5+20-4+1+0
+assert 22 '5+20-4+1+0'
+assert 1 ' 1 + 2 - 3+ 1 '
 # 所有测试通过
 echo OK
